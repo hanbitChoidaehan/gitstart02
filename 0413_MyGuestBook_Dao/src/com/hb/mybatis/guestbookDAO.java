@@ -8,7 +8,7 @@ import org.apache.ibatis.session.SqlSession;
 public class guestbookDAO {
 	private static SqlSession ss;
 	
-	// 싱글턴 패턴 : 프로그램이 끝날때까지 해당 객체는 하나만 가지고 사용 999
+	// 싱글턴 패턴 : 프로그램이 끝날때까지 해당 객체는 하나만 가지고 사용 999 다시한번 수정
 	private synchronized static SqlSession getSql(){
 		if(ss==null){
 			ss = DBService.getFactory().openSession(false);
