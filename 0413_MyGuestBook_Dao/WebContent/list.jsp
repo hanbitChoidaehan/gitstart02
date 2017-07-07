@@ -21,7 +21,7 @@
 	<div align="center">
 	
 	
-		<h2>방명록</h2>
+		<h2>방명록999</h2>
 		<hr />
 		<p>	
 			[<a href="write.jsp">방명록 쓰기</a>]
